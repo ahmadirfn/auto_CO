@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and generated reports
+*.log
+logs/
+reports/
+output/
+downloads/
+
+# Source and generated media assets (keep local; too large for regular Git)
+/input/Assets/
+/input/compressed_assets/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
